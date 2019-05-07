@@ -1,6 +1,6 @@
 # Rock-paper-scissors_Game-REST_API
 A game, REST API by using Go language
-
+Author: Miraç Akif Merttürk
 
 Rock–paper–scissors one of the most well-known
 hand game which usually played between two people,
@@ -13,6 +13,10 @@ Go language. This project is the first usage
 of Go language for me. I created this REST API 
 because of applying an internship for an company.
 
+In the game, I decided to use random number 
+generator to  decide the steps of the opponent one.
+When you play, in deed you play with a computer
+( random number generator ).
 
 * Starts a new game and responses with session ID which will be used later to play.
 -> http://localhost:8080/newGame?round=3
@@ -20,16 +24,19 @@ because of applying an internship for an company.
 * The user sends his/her decision to the server with this request.
 -> http://localhost:8080/play?choose=rock&id=23
 
-***** EXAMPLE USAGE *****
+The player needs to choose what to play by using "choose=rock" comment.
+to play Rock: http://localhost:8080/play?choose=rock&id=23
+to play Paper: http://localhost:8080/play?choose=paper&id=23
+to play Scissors: http://localhost:8080/play?choose=scissors&id=23
+
+You can find an example usage on Wiki page.
 
 $ curl "http://localhost:8080/newGame?round=2"
 
 New Rock-Paper-Scissors game started
 Session ID = 23
 
-to play Rock: http://localhost:8080/play?choose=rock&id=23
-to play Paper: http://localhost:8080/play?choose=paper&id=23
-to play Scissors: http://localhost:8080/play?choose=scissors&id=23
+
 
 $ curl "http://localhost:8080/play?id=23&choose=paper"
 
