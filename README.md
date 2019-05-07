@@ -30,4 +30,4 @@ The player needs to choose what to play by using "choose=rock" comment.
 - to play Scissors: http://localhost:8080/play?choose=scissors&id=23
 
 You can find an example usage of the game on:
-https://github.com/akifmertturk/Rock-paper-scissors_Game-REST_API.wiki
+https://github.com/akifmertturk/Rock-paper-scissors_Game-REST_API/wiki
