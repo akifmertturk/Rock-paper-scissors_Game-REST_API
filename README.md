@@ -29,37 +29,4 @@ to play Rock: http://localhost:8080/play?choose=rock&id=23
 to play Paper: http://localhost:8080/play?choose=paper&id=23
 to play Scissors: http://localhost:8080/play?choose=scissors&id=23
 
-You can find an example usage on Wiki page.
-
-$ curl "http://localhost:8080/newGame?round=2"
-
-New Rock-Paper-Scissors game started
-Session ID = 23
-
-
-
-$ curl "http://localhost:8080/play?id=23&choose=paper"
-
--> ROUND 1
-
-me: ROCK
-you: PAPER
-
-YOU WON THIS ROUND!!
-
-There is 1 more round.
-$ curl "http://localhost:8080/play?id=23&choose=rock"
-
--> ROUND 2
-
-me: SCISSORS
-you: ROCK
-
-YOU WON THIS ROUND!!
-
--> GAME COMPLETED
-Round 1: Rock vs Paper 
-Round 2: Scissors vs Rock 
-
-0 vs 2
-YOU WON !!
+You can find an example usage of the game on Wiki page.
