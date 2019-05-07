@@ -25,9 +25,9 @@ When you play, in deed you play with a computer
 -> http://localhost:8080/play?choose=rock&id=23
 
 The player needs to choose what to play by using "choose=rock" comment.
--to play Rock: http://localhost:8080/play?choose=rock&id=23
--to play Paper: http://localhost:8080/play?choose=paper&id=23
--to play Scissors: http://localhost:8080/play?choose=scissors&id=23
+- to play Rock: http://localhost:8080/play?choose=rock&id=23
+- to play Paper: http://localhost:8080/play?choose=paper&id=23
+- to play Scissors: http://localhost:8080/play?choose=scissors&id=23
 
 You can find an example usage of the game on:
 https://github.com/akifmertturk/Rock-paper-scissors_Game-REST_API.wiki.git.
