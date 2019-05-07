@@ -12,7 +12,7 @@ import (
 
 var sessionId = 23
 var round = 1
-var i = 1 							  // to control the rounds
+var i = 1 			      // to control the rounds
 var selections = []string{"rock", "paper", "scissors"}
 var scores = []int{0, 0}              //first one myScore, second one is yourScore
 var allMySelections = []string{" "}   //stores my selections
@@ -107,9 +107,6 @@ func homepage(w http.ResponseWriter, r *http.Request) {
 		} else {
 		}
 	}
-
-	//fmt.Fprintf(w, "Homepage end point, a: %s", i)
-
 }
 
 func handleRequests() {
