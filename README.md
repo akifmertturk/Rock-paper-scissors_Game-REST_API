@@ -1,17 +1,15 @@
-# Rock-paper-scissors_Game-REST_API
-A game, REST API by using Go language
-Author: Miraç Akif Merttürk
+# Rock-paper-scissors_Game-REST_API  
+**Game**: REST API created by using Go language  
+**Author**: Miraç Akif Merttürk  
 
 Rock–paper–scissors one of the most well-known
 hand game which usually played between two people,
 in which each player simultaneously forms one of
 three shapes with an outstretched hand.
 
-I created the Rock-Paper-Scissors (RPS) game 
-which can be played with an HTTP API by using
-Go language. This project is the first usage 
-of Go language for me. I created this REST API 
-because of applying an internship for an company.
+I implemented this Rock-Paper-Scissors (RPS) game 
+which can be played with an HTTP API and I used Go language. This project is the first experience for me to use Golang. I created this REST API 
+because of applying a summer internship program of a company.
 
 In the game, I decided to use random number 
 generator to  decide the steps of the opponent one.
